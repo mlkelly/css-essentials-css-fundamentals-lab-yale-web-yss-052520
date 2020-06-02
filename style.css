@@ -3,3 +3,54 @@ body {
   height: 100%;
   margin: 0;
 }
+/* testing to see if style.css sheet is properly linked */
+/* h1 {color:red;} */
+
+header {text-align: center;
+
+}
+
+/* centering not quite working...come back to */
+img {
+  display: block;
+  margin: auto;
+}
+
+/* nav links: center all, give <a> within nav bar 10px padding on l/r, background color grey */
+nav a {
+  text-align: center;
+  padding: 10px;
+  background: grey;
+}
+
+
+/* shrink img cap font & center */
+figcaption {
+  text-align: center;
+  font-size: 90%;
+}
+
+/* center text block, give <p> within featured-property width 800px and center text */
+#featured-property p {
+  width: 800px;
+  text-align: center;
+  margin: auto;
+}
+
+/* make #details section horizontal, change display value to block and make each <div> is floating to left */
+/* clean up <div> at bottom, all have same background color, centered text, occupy 25% width of bottom row */
+
+#details {
+  display: block;
+}
+
+#details div {
+  float: left;
+  background-color: hotpink;
+  text-align: center;
+  width: 25%;
+}
+
+
+
+
